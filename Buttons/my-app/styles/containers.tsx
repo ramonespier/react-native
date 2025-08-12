@@ -1,5 +1,9 @@
 import { StyleSheet } from "react-native"
 
+const botao1 = '#000'
+const botao2 = '#8B0000'
+const botao3 = '4B4B4B'
+
 export const styles = StyleSheet.create({
     container: {
       backgroundColor: 'aliceblue',
@@ -21,22 +25,22 @@ export const styles = StyleSheet.create({
       flex: 1
     },
 
-    blackButton: {
+    botao1: {
       width: '100%',
       height: '100%',
-      backgroundColor: '#000'
+      backgroundColor: botao1
     },
 
-    wineButton: {
+    botao2: {
       width: '100%',
       height: '100%',
-      backgroundColor: '#8B0000',
+      backgroundColor: botao2
     },
     
-    greyButton: {
+    botao3: {
       width: '100%',
       height: '100%',
-      backgroundColor: '#4B4B4B',
+      backgroundColor: botao3
     },
   })
 
