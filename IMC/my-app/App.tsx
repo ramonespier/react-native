@@ -16,7 +16,7 @@ export default function App() {
       setData('Os valores devem ser númericos')
       return;
     }
-  
+
     const IMC = pesoNum / (alturaNum ** 2)
 
     if (IMC < 18.5) {
