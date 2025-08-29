@@ -9,6 +9,9 @@ export default function App() {
     "#FF0000", "#0000FF", "#008000", "#FFFF00",
     "#800080", "#FFA500", "#FFC0CB", "#A52A2A",
     "#000000", "#808080", "#00FFFF", "#00FF00",
+    "#664040", "#8e7cc3", "#b4a7d6", "#d9d2e9",
+    "#16537e", "#2986cc", "#bf9000", "#e69138",
+    "#e69138", "#ffe599", "#274e13", "#4c1130"
   ];
 
   const fetchColorName = async (hex: string) => {
@@ -40,6 +43,7 @@ export default function App() {
           {selectedColor ? `Cor selecionada: ${selectedColor}` : "Nenhuma cor selecionada"}
         </Text>
       </View>
+      
     </View>
   );
 }
