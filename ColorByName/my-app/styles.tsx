@@ -18,6 +18,22 @@ export const styles = StyleSheet.create({
         borderRadius: 10,
         borderWidth: 1
       },
+      limpar: {
+        padding: 15,
+        width: 200,
+        alignItems: 'center',
+        backgroundColor: '#f44336',
+        borderRadius: 10,
+        borderWidth: 1,
+        margin: 70
+      },
+
+      botaoLimpar: {
+        fontSize: 18,
+        color: 'white',
+        fontWeight: '600',
+      },
+
       footer: {
         position: "absolute",
         bottom: 0,

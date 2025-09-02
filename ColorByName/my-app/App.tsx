@@ -25,6 +25,10 @@ export default function App() {
     }
   };
 
+  function limpar() {
+      setSelectedColor('Nenhuma cor selecionada.')
+  }
+
   return (
     <View style={styles.container}>
 
@@ -36,6 +40,10 @@ export default function App() {
             onPress={() => fetchColorName(color)}
           />
         ))}
+
+        <TouchableOpacity style={styles.limpar} onPress={limpar}>
+          <Text style={styles.botaoLimpar}>Limpar</Text>
+        </TouchableOpacity>
       </View>
 
       <View style={styles.footer}>
@@ -43,7 +51,7 @@ export default function App() {
           {selectedColor ? `Cor selecionada: ${selectedColor}` : "Nenhuma cor selecionada"}
         </Text>
       </View>
-      
+
     </View>
   );
 }
