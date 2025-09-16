@@ -29,5 +29,10 @@ export const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 10,
     fontStyle: 'italic',
+    textAlign: 'center'
   },
+  responses: {
+    flexDirection: 'column',
+    gap: 5
+  }
 });
